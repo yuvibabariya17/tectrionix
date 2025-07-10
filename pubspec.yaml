@@ -1,0 +1,102 @@
+name: tectrionix
+description: "A new Flutter project."
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  get: ^4.7.2
+  sizer: ^3.0.5
+  http: ^1.4.0
+  hive: ^2.0.5
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.14
+  animate_do: ^4.2.0
+  flutter_svg: ^2.0.10+1
+  loading_animation_widget: ^1.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  hive_generator: ^1.1.0
+  build_runner: ^2.3.3
+
+flutter:
+  
+  uses-material-design: true
+
+  assets:
+    - assets/svgs/
+
+  fonts:
+    - family: gilroy_black
+      fonts:
+        - asset: assets/fonts/gilroy/Gilroy-Black.ttf
+    - family: gilroy_black_italic
+      fonts:
+        - asset: assets/fonts/gilroy/Gilroy-BlackItalic.ttf
+    - family: gilroy_bold
+      fonts:
+        - asset: assets/fonts/gilroy/Gilroy-Bold.ttf
+    - family: gilroy_boldItalic
+      fonts:
+        - asset: assets/fonts/gilroy/Gilroy-BoldItalic.ttf
+    - family: gilroy_extrabold
+      fonts:
+        - asset: assets/fonts/gilroy/Gilroy-ExtraBold.ttf
+    - family: gilroy_extraboldItalic
+      fonts:
+        - asset: assets/fonts/gilroy/Gilroy-ExtraBoldItalic.ttf
+    - family: gilroy_heavy
+      fonts:
+        - asset: assets/fonts/gilroy/Gilroy-Heavy.ttf
+    - family: gilroy_heavyItalic
+      fonts:
+        - asset: assets/fonts/gilroy/Gilroy-HeavyItalic.ttf
+    - family: gilroy_light
+      fonts:
+        - asset: assets/fonts/gilroy/Gilroy-Light.ttf
+    - family: gilroy_lightItalic
+      fonts:
+        - asset: assets/fonts/gilroy/Gilroy-LightItalic.ttf
+    - family: gilroy_medium
+      fonts:
+        - asset: assets/fonts/gilroy/Gilroy-Medium.ttf
+    - family: gilroy_mediumItalic
+      fonts:
+        - asset: assets/fonts/gilroy/Gilroy-MediumItalic.ttf
+    - family: gilroy_regular
+      fonts:
+        - asset: assets/fonts/gilroy/Gilroy-Regular.ttf
+    - family: gilroy_regularItalic
+      fonts:
+        - asset: assets/fonts/gilroy/Gilroy-RegularItalic.ttf
+    - family: gilroy_semiBold
+      fonts:
+        - asset: assets/fonts/gilroy/Gilroy-SemiBold.ttf
+    - family: gilroy_semiBoldItalic
+      fonts:
+        - asset: assets/fonts/gilroy/Gilroy-SemiBoldItalic.ttf
+    - family: gilroy_thin
+      fonts:
+        - asset: assets/fonts/gilroy/Gilroy-Thin.ttf
+    - family: gilroy_thinItalic
+      fonts:
+        - asset: assets/fonts/gilroy/Gilroy-ThinItalic.ttf
+    - family: gilroy_ultraLight
+      fonts:
+        - asset: assets/fonts/gilroy/Gilroy-UltraLight.ttf
+    - family: gilroy_ultraLightItalic
+      fonts:
+        - asset: assets/fonts/gilroy/Gilroy-UltraLightItalic.ttf
+ 
